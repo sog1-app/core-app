@@ -2,7 +2,6 @@ pipeline {
     agent { label 'maven-label' }
 
     tools {
-      
         maven "M3"
     }
 
